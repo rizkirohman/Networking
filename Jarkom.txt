@@ -71,10 +71,18 @@ Class A	            0 sampai 127                126 (2 reserved)          16.777
 Class B	            128 sampai 191              16.384	                  65.534
 Class C	            192 sampai 223              2.097.152                 254
 
+*2 Reserved IP digunakan untuk default route 0.0.0.0 dan loopback ip 127.0.0.0
+
 Dari tabel diatas, berikut adalah range network address yang valid (yang bisa digunakan):
 
 Class A: 1.0.0.0 sampai 126.0.0.0
 Class B: 128.0.0.0 sampai 191.255.0.0
 Class C: 192.0.0.0 sampai 223.255.255.0
+
+Berikut range private ip address (sesuai kelasnya):
+
+Kelas A: 10.0.0.0     sampai    10.255.255.255
+Kelas B: 172.16.0.0   sampai    172.31.255.255
+Kelas C: 192.168.0.0  sampai    192.168.255.255
 
 Subnet adalah sebuah alamat network yang dibagi menjadi bagian-bagian yang lebih kecil. Sesuai dengan namanya, sub(divided)-network.
