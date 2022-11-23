@@ -53,4 +53,28 @@ IP Address
 
 IP address digunakan sebagai alamat logic (bukan fisik) sebuah komputer, yang melekat di Network Interface Card (NIC).
 
+IPv4 menggunakan 32 bit masing - masing 8 bit ditiap oktetnya, contoh :
+
+11000000.10101000.00001010.01000101 atau 192.168.10.69 (dalam bentuk desimal).
+
+Bit   : bilangan biner, nilainya 1 (on) atau 0 (off),
+Byte  : sama dengan 8 bit,
+Oktet : 1 oktet terdiri dari 8 bit (sama dengan 1 byte) dan IPv4 terdiri dari 4 oktet.
+Network address   : alamat network (seperti alamat perumahan, maupun blok perumahan),
+Host address      : alamat host (seperti alamat aktual sebuah rumah di perumahan),
+Broadcast address : alamat yang digunakan untuk mengirim pesan ke semua host.
+
+Tiap oktet dibagi atas network dan host.
+
+Kelas IP Address    Range (bit) Oktet Pertama   Jumlah Network Address    Jumlah Host Address
+Class A	            0 sampai 127	              126 (2 reserved)	        16.777.214
+Class B	            128 sampai 191            	16.384	                  65.534
+Class C	            192 sampai 223	            2.097.152	                254
+
+Dari tabel diatas, berikut adalah range network address yang valid (yang bisa digunakan):
+
+Class A: 1.0.0.0 sampai 126.0.0.0
+Class B: 128.0.0.0 sampai 191.255.0.0
+Class C: 192.0.0.0 sampai 223.255.255.0
+
 Subnet adalah sebuah alamat network yang dibagi menjadi bagian-bagian yang lebih kecil. Sesuai dengan namanya, sub(divided)-network.
