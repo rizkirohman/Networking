@@ -75,9 +75,9 @@ Class C	            192 sampai 223              2.097.152                 254
 
 Dari tabel diatas, berikut adalah range network address yang valid (yang bisa digunakan):
 
-Class A: 1.0.0.0 sampai 126.0.0.0
-Class B: 128.0.0.0 sampai 191.255.0.0
-Class C: 192.0.0.0 sampai 223.255.255.0
+Class A: 1.0.0.0      sampai    126.0.0.0
+Class B: 128.0.0.0    sampai    191.255.0.0
+Class C: 192.0.0.0    sampai    223.255.255.0
 
 Berikut range private ip address (sesuai kelasnya):
 
