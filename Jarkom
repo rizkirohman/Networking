@@ -1,0 +1,56 @@
+====================
+OSI Layer
+====================
+
+Application 
+Menyediakan interface antara aplikasi dgn protokolnya. Contoh browser dan http
+
+Presentation 
+Mendefinisikan format dari data yg dikirim spt text, binary atau jpeg dan melakukan enkripsi dan deenkripsi data.
+
+Session 
+Menjaga komunikasi dari saat dimulai, berlangsung hingga selesai.
+
+Transport
+Melakukan host to host connection (pembentukan koneksi) juga error recovery dan mengkonversi data dalam bentuk segmen menjadi packet.
+
+Network
+Mendefinisikan alamat IP source dan destination juga melakukan routing packet dan mengkonversi data dalam bentuk packet menjadi frame.
+
+Data link 
+Menentukan alamat mac address source dan destination dan mengkonversi data dalam bentuk paket menjadi frame.
+
+Physical layer
+Mengkonversi data dalam bentuk frame menjadi bit.
+
+Protocol merupakan cara agar setiap perangkat yang berbeda-beda bisa saling berkomunikasi dengan efektif baik secara perangkat lunak maupun perangkat keras.
+
+Berbicara OSI layer maka mengacu ke sejarah dan implementasi.
+Sejarah :
+untuk menyeragamkan protokol pada perangkat yg dibuat berbagai vendor agar bisa saling berkomunikasi.
+
+Implementasi 
+Proses mengirim data dgn cara mengubah data dari data itu sendiri menjadi segmen, packet, frame kemudian menjadi bit.
+
+Mekanisme HTTP: 
+HTTP Get Request –> 
+HTTP Get Reply –> 
+HTTP Data.
+
+Mekanisme TCP :
+Three-way Handshake TCP (SYN -> SYN/ACK, ACK -> DATA)
+Pembentukan Koneksi (TWH) –> Pengiriman Data (dengan error recovery).
+
+Rangkuman alurnya: 
+Input URL –> 
+Menanyakan alamat IP dari sebuah domain –> 
+Melakukan request koneksi ke IP yang sudah didapat –> 
+Melakukan pengiriman data.
+
+====================
+IP Address
+====================
+
+IP address digunakan sebagai alamat logic (bukan fisik) sebuah komputer, yang melekat di Network Interface Card (NIC).
+
+Subnet adalah sebuah alamat network yang dibagi menjadi bagian-bagian yang lebih kecil. Sesuai dengan namanya, sub(divided)-network.
