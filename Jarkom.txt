@@ -67,9 +67,9 @@ Broadcast address : alamat yang digunakan untuk mengirim pesan ke semua host.
 Tiap oktet dibagi atas network dan host.
 
 Kelas IP Address    Range (bit) Oktet Pertama   Jumlah Network Address    Jumlah Host Address
-Class A	            0 sampai 127                126 (2 reserved)	        16.777.214
+Class A	            0 sampai 127                126 (2 reserved)          16.777.214
 Class B	            128 sampai 191              16.384	                  65.534
-Class C	            192 sampai 223              2.097.152	                254
+Class C	            192 sampai 223              2.097.152                 254
 
 Dari tabel diatas, berikut adalah range network address yang valid (yang bisa digunakan):
 
