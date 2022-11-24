@@ -126,3 +126,18 @@ Kelas B: 172.16.0.0   sampai    172.31.255.255
 Kelas C: 192.168.0.0  sampai    192.168.255.255
 
 Subnet adalah sebuah alamat network yang dibagi menjadi bagian-bagian yang lebih kecil. Sesuai dengan namanya, sub(divided)-network.
+
+
+====================
+Gateway
+====================
+
+Gateway berfungsi sebagai gerbang transit sebuah packet yang mau dikirimkan ke network lain, 
+oleh perangkat gateway. Gateway identik dengan router, karena tugas router adalah merouting paket.
+
+Kapan kita butuh gateway? Gateway dibutuhkan ketika packet ingin dikirimkan ke network yang berbeda.
+
+Proses pengiriman paket melaui gateway :
+Saat host/komputer mengirimkan packet, maka komputer akan melihat alamat tujuan packet tersebut. 
+Jika masih satu network dengannya, proses akan berlanjut ke pengiriman packet. 
+Jika network tujuan sudah tidak satu network dengannya, maka dia akan mengirimkan ke alamat gateway.
