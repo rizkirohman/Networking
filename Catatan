@@ -145,6 +145,19 @@ Tahapan membuat subnet :
 	Subnet mask unik untuk network keseluruhan
 	Subnet ID unik untuk setiap segmen fisik
 	Range IP address tiap subnet
+	
+====================
+Subnet Mask
+====================
+	
+Ketika packet dikirim, si pengirim akan memeriksa dulu alamat ip tujuan packet, juga subnet masknya.
+Subnet mask dibutuhkan untuk mengetahui alamat tersebut termasuk ke subnet yang mana.
+
+Dengan subnet mask kita bisa mengetahui berapa lebar sebuah network, berapa banyak host yang berada di network tersebut.
+
+Sederhananya, subnet mask adalah banyaknya jumlah bit yang bernilai 1 di porsi network
+
+Jumlah bit di oktet kelas 2 atau kelas A ditambahkan 16 maka hasilnya akan sesuai dengan prefix di oktet ke 4 atau kelas C
 
 ====================
 Gateway
