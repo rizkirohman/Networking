@@ -141,3 +141,15 @@ Proses pengiriman paket melaui gateway :
 Saat host/komputer mengirimkan packet, maka komputer akan melihat alamat tujuan packet tersebut. 
 Jika masih satu network dengannya, proses akan berlanjut ke pengiriman packet. 
 Jika network tujuan sudah tidak satu network dengannya, maka dia akan mengirimkan ke alamat gateway.
+
+====================
+IP Routing
+====================
+
+IP Routing adalah proses perpindahan data yang terjadi di layer 3 dengan router sebagai perangkat yg meroutingnya.
+
+Alamat source dan destination suatu paket tidak akan berubah yg berubah hanya alamat mac address tiap kali paket tersebut transit ditiap interface network yg dilaluinya.
+
+Tugas router dalam hal merouting suatu paket :
+- Melihat network dari tujuan sebuah paket (karena router hanya melihat alamat sebuah network bukan alamat host),
+- Menentukan rute terbaik untuk mengirimkan paket.
