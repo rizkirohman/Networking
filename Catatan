@@ -125,8 +125,26 @@ Kelas A: 10.0.0.0     sampai    10.255.255.255
 Kelas B: 172.16.0.0   sampai    172.31.255.255
 Kelas C: 192.168.0.0  sampai    192.168.255.255
 
+====================
+Subnet
+====================
+
 Subnet adalah sebuah alamat network yang dibagi menjadi bagian-bagian yang lebih kecil. Sesuai dengan namanya, sub(divided)-network.
 
+Tahapan membuat subnet :
+
+1. Ketahui jumlah network address (network ID) yang dibutuhkan.
+	Satu untuk setiap subnet LAN
+	Satu untuk setiap subnet WAN
+
+2. Jumlah ip address (host ID) yang dibutuhkan tiap subnet. 
+	Satu untuk setiap TCP/IP host
+	Satu untuk setiap interface router/switch
+
+3. Tentukan network keseluruhan, subnet, dan range IP tiap subnet.
+	Subnet mask unik untuk network keseluruhan
+	Subnet ID unik untuk setiap segmen fisik
+	Range IP address tiap subnet
 
 ====================
 Gateway
@@ -156,3 +174,6 @@ Tugas router dalam hal merouting suatu paket :
 
 Router bekerja berdasarkan tabel routing ketika router menerima paket maka router akan melihat alamat tujuannya dengan mengecek di tabel routingnya,
 jika alamat tujuan ada di tabel routing maka paket akan diteruskan dan jika tidak ada maka paket tsb akan di discard.
+
+
+*Terima kasih google dan ngonfig.net
