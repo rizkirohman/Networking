@@ -153,3 +153,6 @@ Alamat source dan destination suatu paket tidak akan berubah yg berubah hanya al
 Tugas router dalam hal merouting suatu paket :
 - Melihat network dari tujuan sebuah paket (karena router hanya melihat alamat sebuah network bukan alamat host),
 - Menentukan rute terbaik untuk mengirimkan paket.
+
+Router bekerja berdasarkan tabel routing ketika router menerima paket maka router akan melihat alamat tujuannya dengan mengecek di tabel routingnya,
+jika alamat tujuan ada di tabel routing maka paket akan diteruskan dan jika tidak ada maka paket tsb akan di discard.
