@@ -188,5 +188,35 @@ Tugas router dalam hal merouting suatu paket :
 Router bekerja berdasarkan tabel routing ketika router menerima paket maka router akan melihat alamat tujuannya dengan mengecek di tabel routingnya,
 jika alamat tujuan ada di tabel routing maka paket akan diteruskan dan jika tidak ada maka paket tsb akan di discard.
 
+========================================
+Route summarization atau Supernetting
+========================================
 
-*Terima kasih google dan ngonfig.net
+Konsep dari route summarization adalah menggabungkan beberapa jaringan menjadi satu buah jaringan yang lebih besar atau disebut juga supernetting (kebalikan dari subnetting).
+
+Jadi dapat dikatakan bahwa route summarization adalah teknik untuk meringkas jalur routing dengan cara menggabungkan beberapa atau banyak network menjadi satu buah jaringan yang lebih besar.
+
+Plus minus supernetting :
+(+)
+1. Menghemat memori,
+2. Menghemat Bandwidth,
+3. Menghemat CPU load,
+4. Membuat jaringan terkesan lebih stabil.
+
+(-)
+1. Merubah network menjadi classfull,
+2. Kurang menjadi prioritas dalam routing.
+
+Cara melakukan supernetting :
+1. Ubah network menjadi biner,
+2. Tandai bilangan biner yg nilai angkanya sama,
+3. Yg angkanya berbeda diubah menjadi 0,
+4. Tentukan subnetmasknya dengan cara menghitung angka terakhir yg sama diposisi ke berapa 1 - sekian (slash berapa), maka itulah hasil supernetting nya.
+
+Route Summarization adalah sebuah teknik untuk menyederhanakan jaringan yang kompleks agar proses routing menjadi lebih sederhana. Oleh karena itu route summarization lebih cocok diterapkan pada jaringan enterprise dengan network yang kompleks. Jika kita hanya mengelola jaringan yang kecil saya rasa tidak perlu menggunakan summarization.
+
+
+*Terima kasih :
+Google,
+ngonfig.net
+diatyconfig.com
