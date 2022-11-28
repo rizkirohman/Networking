@@ -215,6 +215,20 @@ Cara melakukan supernetting :
 
 Route Summarization adalah sebuah teknik untuk menyederhanakan jaringan yang kompleks agar proses routing menjadi lebih sederhana. Oleh karena itu route summarization lebih cocok diterapkan pada jaringan enterprise dengan network yang kompleks. Jika kita hanya mengelola jaringan yang kecil saya rasa tidak perlu menggunakan summarization.
 
+Tahapan belajar : 
+
+1. https://ngonfig.net/infrastruktur-jaringan-komputer.html
+2. https://ngonfig.net/jaringan-enterprise.html
+3. https://ngonfig.net/networking-model.html
+4. https://ngonfig.net/tcp-ip.html
+5. https://ngonfig.net/osi-model.html
+6. https://ngonfig.net/ip-address.html
+7. https://ngonfig.net/subnetting.html
+8. https://ngonfig.net/fungsi-gateway.html
+9. https://ngonfig.net/ip-routing.html
+10. https://ngonfig.net/vlsm.html
+11. https://www.diaryconfig.com/2018/01/mengenal-route-summarization.html
+12. https://www.diaryconfig.com/2018/04/cara-menentukan-route-summarization.html
 
 *Terima kasih :
 Google,
