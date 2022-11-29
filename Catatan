@@ -35,15 +35,16 @@ Menentukan alamat mac address source dan destination dan mengkonversi data dalam
 Physical layer
 Mengkonversi data dalam bentuk frame menjadi bit.
 
-Layer 5-7, application, session, presentation : Data
-Layer 4 transport                             : Segment
-Layer 3 network                               : Packet
-Layer 2 data link                             : Frame
-Layer 1 physical                              : Bit
+Layer 5-7  : Data
+Layer 4    : Segment
+Layer 3    : Packet
+Layer 2    : Frame
+Layer 1    : Bit
 
 Protocol merupakan cara agar setiap perangkat yang berbeda-beda bisa saling berkomunikasi dengan efektif baik secara perangkat lunak maupun perangkat keras.
 
 Berbicara OSI layer maka mengacu ke sejarah dan implementasi.
+
 Sejarah :
 untuk menyeragamkan protokol pada perangkat yg dibuat berbagai vendor agar bisa saling berkomunikasi.
 
